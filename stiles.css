@@ -1,0 +1,121 @@
+/* Importacion de la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Estilos Generales */
+*{
+     margin: 0;
+     font-family: 'Montserrat','Sanserif';
+}
+h2{
+     font-size: 24px;
+}
+h3{
+     font-family: 18px;
+     font-weight: 400;
+}
+/* Inicio */
+#inicio{
+     height: 70vh;
+     widows: 100%;
+     background-image: url("../img/banner.jpg");
+     background-size: cover;
+}
+/* Navegacion */
+.navegacion{
+    height: 10vh; 
+}
+.navItem{
+     list-style: none;
+     font-weight: 600;
+}
+.navItem a{
+     color: #fff;
+}
+.navItem:hover a{
+     color: #9acd32;
+     cursor: pointer;
+}
+/* Portada */
+#portada{
+     height: 60vh;
+     color: #fff;
+}
+.portadaImagen{
+     height: 120px;
+     width: 120px;
+     border-radius: 50%;
+     /* 
+     El siguiente estilo no debe ser necesariamente igual al del alumno 
+     ya que es opcional.
+     */
+     box-shadow: 14px 18px 30px 1px rgba(0,0,0,0.63); 
+}
+/* Sobre Mi */
+#sobreMi{
+     height: 30vh;
+     background-color: #EC7063;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 3%;
+     text-align: center;
+     color: #fff;
+}
+#sobreMi h2{
+     margin-bottom: 10px;
+}
+/* Proyectos */
+#proyectos{
+     padding-top: 8%;
+     text-align: center;
+}
+.proyectoTitulo h2{
+     color: #EC7063;
+}
+.proyectoTitulo h3{
+     color: #9b9b9b;
+     margin: 8px 0;
+}
+/* Contacto */
+#contacto{
+     margin-top: 8%;
+     background-color: #455a64;
+     text-align: center;
+     color: #fff;
+     padding: 5% 10%;
+}
+.contactoSubtitulo{
+     margin: 8px 0;
+}
+.filaSuperior{
+     margin-top: 2%;
+     margin-bottom: 3%;
+}
+.filaSuperior input, textarea{
+     background-color: transparent;
+     border: 0;
+     border-bottom: solid 2px #37474f;
+}
+input, textarea{
+     color: #fff;
+     font-size: 18px;
+     padding: 2px 4px 2px 6px;
+}
+/* Boton Enviar */
+#btnEnviar{
+     border: 0;
+     margin-top: 3%;
+     height: 50px;
+     width: 215px;
+     background-color: #EC7063;
+     font-size: 22px;
+     font-weight: 600;
+     border-radius: 10px;
+     cursor: pointer;
+}
+/* Footer */
+footer{
+     background-color: #37474f;
+     color: #fff;
+     text-align: center;
+     padding: 5% 10%;
+}

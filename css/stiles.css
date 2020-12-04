@@ -1,0 +1,37 @@
+/* Importacion de la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/*m*/
+.card-actionc{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.container{
+     margin-top: 2%;
+     margin-bottom: 3%;
+     text-align: center;
+}
+
+.card{background-color: #37474f;
+    color: #fff;
+    text-align: center;
+    padding: 5% 10%;
+     
+}
+/* Footer m*/
+footer{
+     background-color: #37474f;
+     color: #fff;
+     text-align: center;
+     padding: 5% 10%;
+}
+
+.row{
+    background-color: #55b4e4;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+
